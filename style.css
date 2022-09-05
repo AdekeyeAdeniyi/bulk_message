@@ -156,7 +156,7 @@ a.btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
     border-radius: 36px;
     border: none;
@@ -166,7 +166,7 @@ a.btn{
 
 .btn-md {
     height: 40px;
-    padding: 13px 20px;
+    padding: 13px 63px;
 }
 
 .btn-secondary{
@@ -272,7 +272,7 @@ section {
 }
 
 .documentation__items .item .item__title{
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.8rem;
     margin-bottom: 8px;
 }
@@ -319,12 +319,13 @@ section {
 }
 
 .article .article__details .article__description .title{
-   font-size: 2.4rem;
-   font-weight: 700;
+   font-size: 2.0rem;
+   font-weight: 400;
+   color: var(--text-color)
 }
 
 .article .article__details .article__description .info{
-   font-size: 1.6rem;
+   font-size: 1.8rem;
    margin: 26px 0 38px 0;
    line-height: 1.5;
 }
@@ -341,13 +342,15 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    height: 230px;
 }
 
 .cta__title {
-    font-size: 3.0rem;
+    font-size: 3.8rem;
     font-weight: 700;
     color: var(--white-color);
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 /* FOOTER */
@@ -381,7 +384,7 @@ section {
 .footer__nav .nav__items .nav__links{
     text-decoration: none;
     color:  var(--text-color);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     transition: all .2s linear;
 }
@@ -495,17 +498,24 @@ section {
         display: block;
     }
 
+    .article .article__details .article__description .title {
+        font-size: 3.2rem;
+    }
+
     .article .article__details .article__description .info{
+        font-size: 2.6rem;
         margin: 20px 0 30px 0;
         line-height: 1.5;
     }
 
     .cta {
         padding: 90px 0;
+        height: 420px;
     }
 
     .cta__title {
-        font-size: 5.0rem;
+        font-size: 7.7rem;
+        margin-bottom: 63px;
     }
 
     .footer {
@@ -530,6 +540,10 @@ section {
     
     .footer__nav .nav__items h5{
         font-size: 2.0rem;
+    }
+
+    .footer__nav .nav__items .nav__links {
+        font-size: 1.6rem;
     }
 }
 @media only screen and (min-width: 1200px) {
