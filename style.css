@@ -139,7 +139,6 @@ a:link {
     line-height: 1.5;
     color:  var(--white-color);
     padding: 26px 0 46px 0;
-    font-size: 1.6rem;
 }
 
 .herobox__btn {
@@ -166,7 +165,7 @@ a.btn{
 
 .btn-md {
     height: 40px;
-    padding: 13px 63px;
+    padding: 13px 43px;
 }
 
 .btn-secondary{
@@ -384,7 +383,7 @@ section {
 .footer__nav .nav__items .nav__links{
     text-decoration: none;
     color:  var(--text-color);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     transition: all .2s linear;
 }
@@ -424,6 +423,11 @@ section {
 @media only screen and (min-width: 992px) {
     section {
         padding: 90px 0;
+    }
+
+    .btn-md {
+        height: 40px;
+        padding: 13px 63px;
     }
 
     .container {
@@ -476,13 +480,13 @@ section {
 
     .herobox__title {
         width: 19ch;
-        font-size: 5.0rem;
+        font-size: 7.7rem;
         margin-bottom: 0;
     }
 
     .herobox__info {
         display: block;
-        font-size: 2.4rem;
+        font-size: 3.5rem;
     }
 
     .documentation__items {
@@ -539,11 +543,11 @@ section {
     }
     
     .footer__nav .nav__items h5{
-        font-size: 2.0rem;
+        font-size: 3.2rem;
     }
 
     .footer__nav .nav__items .nav__links {
-        font-size: 1.6rem;
+        font-size: 2.6rem;
     }
 }
 @media only screen and (min-width: 1200px) {
